@@ -47,10 +47,10 @@ public class Login extends AppCompatActivity {
                 Username = edit1.getText().toString();
                 Passcode = edit2.getText().toString();
 
-                //Intent i1 = new Intent(Login.this, Locations.class);
-                //i1.putExtra("key3", "Username");
-               // i1.putExtra("key4", "Passcode");
-                //startActivity(i1);
+                Intent i1 = new Intent(Login.this, Locations.class);
+                i1.putExtra("key3", "Username");
+                i1.putExtra("key4", "Passcode");
+                startActivity(i1);
 
             }
         });
