@@ -2,6 +2,7 @@ package com.example.autotech;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
@@ -20,8 +21,8 @@ public class Locations extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent i = new Intent(Locations.this, Home.class);
-                //startActivity(i);
+                Intent i = new Intent(Locations.this, Home.class);
+                startActivity(i);
 
             }
         });
@@ -29,8 +30,8 @@ public class Locations extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent i = new Intent(Locations.this, Home.class);
-                //startActivity(i);
+                Intent i = new Intent(Locations.this, Home.class);
+                startActivity(i);
 
             }
         });
