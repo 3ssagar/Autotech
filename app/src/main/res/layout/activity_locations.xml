@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.741" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/labourcost"
         android:layout_width="347dp"
         android:layout_height="40dp"
         android:text="Auto tech service in your hands"

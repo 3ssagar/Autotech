@@ -22,8 +22,8 @@ public class Home extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent i = new Intent(Home.this, MakeModel.class);
-                //startActivity(i);
+                Intent i = new Intent(Home.this, Makemodel.class);
+                startActivity(i);
             }
         });
     }
