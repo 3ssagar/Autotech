@@ -16,9 +16,16 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Toast.makeText(this,"Your location is selected",Toast.LENGTH_LONG).show();
-        b1= findViewById(R.id.button6);
-        b2 = findViewById(R.id.button7);
-        b3 = findViewById(R.id.button8);
+        b1= findViewById(R.id.b1);
+        b2 = findViewById(R.id.b2);
+        b3 = findViewById(R.id.b3);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Home.this, Makemodel.class);
+                startActivity(i);
+            }
+        });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,5 +33,13 @@ public class Home extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Home.this, Makemodel.class);
+                startActivity(i);
+            }
+        });
+
     }
 }
