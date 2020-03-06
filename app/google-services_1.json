@@ -15,22 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "947649732889-m8pjmk9pdkhf9uratihg5qkkdbj1bolj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.autotech",
-            "certificate_hash": "4d4c158f8e6bc793a2229d99a3aad97c4feb0a80"
-          }
-        },
-        {
-          "client_id": "947649732889-m5619i7pooujps5pmrv0bge327ne7lk9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.autotech",
-            "certificate_hash": "cc4cf944f9cce2151f3e6bfc8a94621a1ffb0187"
-          }
-        },
-        {
           "client_id": "947649732889-bcjim47lb7g16a5mtkhtdqcup473gs7u.apps.googleusercontent.com",
           "client_type": 3
         }
