@@ -1,64 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wal"
-    tools:context=".Makemodel">
+    tools:context=".Makemodel"
+    android:orientation="vertical"
+    android:gravity="center">
 
     <EditText
-        android:id="@+id/make"
-        android:layout_width="220dp"
-        android:layout_height="46dp"
-        android:background="#E9EEE4"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Make"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
-
+        android:id="@+id/mk"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="make"
+        />
     <EditText
-        android:id="@+id/model"
-        android:layout_width="216dp"
-        android:layout_height="41dp"
-        android:background="#F5EEF0"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Model"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365" />
+        android:id="@+id/md"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="model"
 
+        />
     <EditText
-        android:id="@+id/year"
-        android:layout_width="216dp"
-        android:layout_height="45dp"
-        android:background="#F1E7EA"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Year"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/yr"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="year"
+        android:inputType="number"
 
+        />
     <Button
-        android:id="@+id/btnsubmit"
+        android:id="@+id/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="444dp"
-        android:text="Submit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        android:hint="Submit"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        />
+
+    <Button
+        android:id="@+id/retrive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="retrive"
+        android:layout_marginTop="50dp"
+
+        />
+
+</LinearLayout>
+
