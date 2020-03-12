@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class Home extends AppCompatActivity {
     Button b1,b2,b3;
-
+  Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +37,13 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Home.this, Makemodel.class);
+                startActivity(i);
+            }
+        });
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Home.this, Myaccount.class);
                 startActivity(i);
             }
         });

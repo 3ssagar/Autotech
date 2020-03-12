@@ -5,5 +5,9 @@
     <string name="user_id">User id</string>
     <string name="sign_up">Sign up</string>
     <string name="passcode">passcode</string>
+    <string name="service">Service</string>
+    <string name="carwash">carWash</string>
+    <string name="custom">Custom</string>
+    <string name="my_account">My Account</string>
 
 </resources>

@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/b1"
-        android:hint="Service"
+        android:hint="@string/service"
         android:layout_width="250dp"
         android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,7 +22,7 @@
 
     <Button
         android:id="@+id/b2"
-        android:hint="carWash"
+        android:hint="@string/carwash"
         android:layout_width="250dp"
         android:layout_height="150dp"
         android:layout_marginTop="352dp"
@@ -37,7 +37,7 @@
 
     <Button
         android:id="@+id/b3"
-        android:hint="Custom"
+        android:hint="@string/custom"
         android:layout_width="250dp"
         android:layout_height="150dp"
         android:layout_marginTop="560dp"
@@ -49,5 +49,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.171"
         app:srcCompat="@drawable/tech" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
